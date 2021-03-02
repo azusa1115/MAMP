@@ -1,0 +1,47 @@
+2021-03-02T07:41:34.6NZ mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+2021-03-02T07:41:34.6NZ mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql57
+2021-03-02T07:41:35.054656Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-03-02T07:41:35.055092Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2021-03-02T07:41:35.055166Z 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.7.32) starting as process 42585 ...
+2021-03-02T07:41:35.063350Z 0 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql57/ is case insensitive
+2021-03-02T07:41:35.065905Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-03-02T07:41:35.065942Z 0 [Note] InnoDB: Uses event mutexes
+2021-03-02T07:41:35.065956Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-03-02T07:41:35.065968Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-02T07:41:35.066438Z 0 [Note] InnoDB: Number of pools: 1
+2021-03-02T07:41:35.066644Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2021-03-02T07:41:35.069284Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-03-02T07:41:35.085327Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-02T07:41:35.103740Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-03-02T07:41:35.122021Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-02T07:41:35.122176Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-02T07:41:35.128678Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-02T07:41:35.130419Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-03-02T07:41:35.130451Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-03-02T07:41:35.130672Z 0 [Note] InnoDB: Waiting for purge to start
+2021-03-02T07:41:35.184039Z 0 [Note] InnoDB: 5.7.32 started; log sequence number 2551565
+2021-03-02T07:41:35.184442Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/MAMP/db/mysql57/ib_buffer_pool
+2021-03-02T07:41:35.184524Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-03-02T07:41:35.197212Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2021-03-02T07:41:35.197279Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2021-03-02T07:41:35.207010Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210302 16:41:35
+2021-03-02T07:41:35.208900Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-03-02T07:41:35.208956Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-03-02T07:41:35.211790Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-03-02T07:41:35.211918Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-03-02T07:41:35.212539Z 0 [Note] Server hostname (bind-address): '*'; port: 8889
+2021-03-02T07:41:35.213408Z 0 [Note] IPv6 is available.
+2021-03-02T07:41:35.213479Z 0 [Note]   - '::' resolves to '::';
+2021-03-02T07:41:35.213666Z 0 [Note] Server socket created on IP: '::'.
+2021-03-02T07:41:35.297688Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-03-02T07:41:35.297906Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
+Version: '5.7.32'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 8889  MySQL Community Server (GPL)
+2021-03-02T08:30:31.669307Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2641800ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-03-02T09:24:35.511034Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3229916ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-03-02T10:18:38.348675Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3229916ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-03-02T11:12:42.186005Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3230919ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-03-02T11:42:01.558611Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1746452ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-03-02T13:37:48.980860Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2658564ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-03-02T14:19:56.458499Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2512378ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-03-02T14:52:51.072818Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1201184ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-03-02T15:30:23.953108Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1749765ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

@@ -1,0 +1,46 @@
+[Mon Mar 01 23:17:06.676889 2021] [:notice] [pid 34461] FastCGI: process manager initialized (pid 34461)
+[Mon Mar 01 23:17:06.679273 2021] [mpm_prefork:notice] [pid 34443] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Mon Mar 01 23:17:06.679886 2021] [core:notice] [pid 34443] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Mon Mar 01 23:29:27.244020 2021] [mpm_prefork:notice] [pid 34443] AH00169: caught SIGTERM, shutting down
+[Mon Mar 01 23:30:05.054210 2021] [:notice] [pid 35837] FastCGI: process manager initialized (pid 35837)
+[Mon Mar 01 23:30:05.058013 2021] [mpm_prefork:notice] [pid 35833] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Mon Mar 01 23:30:05.058437 2021] [core:notice] [pid 35833] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Mon Mar 01 23:44:02.097879 2021] [mpm_prefork:notice] [pid 35833] AH00169: caught SIGTERM, shutting down
+[Mon Mar 01 23:44:04.896490 2021] [:notice] [pid 36816] FastCGI: process manager initialized (pid 36816)
+[Mon Mar 01 23:44:04.897071 2021] [mpm_prefork:notice] [pid 36814] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/8.0.0 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Mon Mar 01 23:44:04.897550 2021] [core:notice] [pid 36814] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Mon Mar 01 23:49:38.747927 2021] [php:error] [pid 36819] [client ::1:49549] script '/Applications/MAMP/htdocs/c3.php' not found or unable to stat
+[Mon Mar 01 23:49:42.404668 2021] [php:error] [pid 36819] [client ::1:49549] script '/Applications/MAMP/htdocs/c3.php' not found or unable to stat
+[Mon Mar 01 23:50:10.152995 2021] [php:error] [pid 36838] [client ::1:49554] script '/Applications/MAMP/htdocs/c3.php' not found or unable to stat
+[Mon Mar 01 23:50:10.862018 2021] [php:error] [pid 36838] [client ::1:49554] script '/Applications/MAMP/htdocs/c3.php' not found or unable to stat
+[Mon Mar 01 23:53:16.162000 2021] [mpm_prefork:notice] [pid 36814] AH00169: caught SIGTERM, shutting down
+[Mon Mar 01 23:53:22.021313 2021] [:notice] [pid 37694] FastCGI: process manager initialized (pid 37694)
+[Mon Mar 01 23:53:22.021898 2021] [mpm_prefork:notice] [pid 37691] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/8.0.0 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Mon Mar 01 23:53:22.022261 2021] [core:notice] [pid 37691] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Tue Mar 02 14:10:13.174925 2021] [mpm_prefork:notice] [pid 37691] AH00169: caught SIGTERM, shutting down
+[Tue Mar 02 14:10:19.242094 2021] [:notice] [pid 40629] FastCGI: process manager initialized (pid 40629)
+[Tue Mar 02 14:10:19.244003 2021] [mpm_prefork:notice] [pid 40624] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/8.0.0 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Tue Mar 02 14:10:19.244566 2021] [core:notice] [pid 40624] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Tue Mar 02 14:14:51.798737 2021] [mpm_prefork:notice] [pid 40624] AH00169: caught SIGTERM, shutting down
+[Tue Mar 02 14:22:03.635231 2021] [:notice] [pid 41317] FastCGI: process manager initialized (pid 41317)
+[Tue Mar 02 14:22:03.635281 2021] [mpm_prefork:notice] [pid 41311] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/8.0.0 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Tue Mar 02 14:22:03.636340 2021] [core:notice] [pid 41311] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Tue Mar 02 16:36:16.405668 2021] [mpm_prefork:notice] [pid 41311] AH00169: caught SIGTERM, shutting down
+[Tue Mar 02 16:37:28.791752 2021] [:notice] [pid 41858] FastCGI: process manager initialized (pid 41858)
+[Tue Mar 02 16:37:28.793972 2021] [mpm_prefork:notice] [pid 41855] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/8.0.0 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Tue Mar 02 16:37:28.794353 2021] [core:notice] [pid 41855] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Tue Mar 02 16:41:03.536078 2021] [mpm_prefork:notice] [pid 41855] AH00169: caught SIGTERM, shutting down
+[Tue Mar 02 16:41:09.494674 2021] [:notice] [pid 42347] FastCGI: process manager initialized (pid 42347)
+[Tue Mar 02 16:41:09.497942 2021] [mpm_prefork:notice] [pid 42343] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/8.0.0 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Tue Mar 02 16:41:09.498566 2021] [core:notice] [pid 42343] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Tue Mar 02 16:41:22.467381 2021] [mpm_prefork:notice] [pid 42343] AH00169: caught SIGTERM, shutting down
+[Tue Mar 02 16:41:24.742634 2021] [:notice] [pid 42403] FastCGI: process manager initialized (pid 42403)
+[Tue Mar 02 16:41:24.744302 2021] [mpm_prefork:notice] [pid 42400] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Tue Mar 02 16:41:24.744669 2021] [core:notice] [pid 42400] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Tue Mar 02 16:41:29.149707 2021] [mpm_prefork:notice] [pid 42400] AH00169: caught SIGTERM, shutting down
+[Tue Mar 02 16:41:34.992456 2021] [:notice] [pid 42589] FastCGI: process manager initialized (pid 42589)
+[Tue Mar 02 16:41:34.994957 2021] [mpm_prefork:notice] [pid 42586] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Tue Mar 02 16:41:34.995293 2021] [core:notice] [pid 42586] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Tue Mar 02 16:44:48.016044 2021] [php7:error] [pid 42592] [client ::1:51741] script '/Applications/MAMP/htdocs/sample01.php' not found or unable to stat
+[Tue Mar 02 16:45:05.568462 2021] [php7:error] [pid 42637] [client ::1:51749] script '/Applications/MAMP/htdocs/sample01.php' not found or unable to stat
+[Tue Mar 02 16:45:06.159904 2021] [php7:error] [pid 42637] [client ::1:51749] script '/Applications/MAMP/htdocs/sample01.php' not found or unable to stat
