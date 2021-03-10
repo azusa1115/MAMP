@@ -44,3 +44,33 @@
 [Tue Mar 02 16:44:48.016044 2021] [php7:error] [pid 42592] [client ::1:51741] script '/Applications/MAMP/htdocs/sample01.php' not found or unable to stat
 [Tue Mar 02 16:45:05.568462 2021] [php7:error] [pid 42637] [client ::1:51749] script '/Applications/MAMP/htdocs/sample01.php' not found or unable to stat
 [Tue Mar 02 16:45:06.159904 2021] [php7:error] [pid 42637] [client ::1:51749] script '/Applications/MAMP/htdocs/sample01.php' not found or unable to stat
+[Fri Mar 05 22:33:01.745241 2021] [php7:error] [pid 42639] [client ::1:59937] script '/Applications/MAMP/htdocs/c3-10.php' not found or unable to stat
+[Sat Mar 06 22:13:53.176879 2021] [mpm_prefork:notice] [pid 42586] AH00169: caught SIGTERM, shutting down
+[Sat Mar 06 23:05:50.804904 2021] [:notice] [pid 1868] FastCGI: process manager initialized (pid 1868)
+[Sat Mar 06 23:05:50.807027 2021] [mpm_prefork:notice] [pid 1861] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Sat Mar 06 23:05:50.807377 2021] [core:notice] [pid 1861] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Sun Mar 07 21:47:57.752106 2021] [php7:error] [pid 1872] [client ::1:50852] script '/Applications/MAMP/htdocs/submit.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 21:48:01.855742 2021] [php7:error] [pid 1872] [client ::1:50852] script '/Applications/MAMP/htdocs/submit.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 21:49:07.005872 2021] [php7:error] [pid 1893] [client ::1:50864] script '/Applications/MAMP/htdocs/submit.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:13:48.931382 2021] [php7:error] [pid 1894] [client ::1:51086] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:14:13.321372 2021] [php7:error] [pid 1873] [client ::1:51092] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:14:14.094660 2021] [php7:error] [pid 1873] [client ::1:51092] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:14:31.662105 2021] [php7:error] [pid 1871] [client ::1:51093] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:14:32.171657 2021] [php7:error] [pid 1871] [client ::1:51093] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:14:41.431557 2021] [php7:error] [pid 1870] [client ::1:51095] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:14:41.845593 2021] [php7:error] [pid 1870] [client ::1:51095] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:17:34.181050 2021] [php7:error] [pid 1892] [client ::1:51115] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:17:34.753450 2021] [php7:error] [pid 1892] [client ::1:51115] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:19:51.480789 2021] [php7:error] [pid 1894] [client ::1:51130] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:19:51.960537 2021] [php7:error] [pid 1894] [client ::1:51130] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Sun Mar 07 22:19:52.231765 2021] [php7:error] [pid 1894] [client ::1:51130] script '/Applications/MAMP/htdocs/practice17.php' not found or unable to stat, referer: http://localhost:8888/c3-17.php
+[Tue Mar 09 23:19:41.406597 2021] [php7:error] [pid 9447] [client ::1:54401] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
+[Tue Mar 09 23:20:02.493550 2021] [php7:error] [pid 1870] [client ::1:54408] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
+[Tue Mar 09 23:21:38.436794 2021] [php7:error] [pid 9446] [client ::1:54433] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
+[Tue Mar 09 23:21:39.178594 2021] [php7:error] [pid 9446] [client ::1:54433] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
+[Tue Mar 09 23:22:00.059278 2021] [php7:error] [pid 1873] [client ::1:54435] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
+[Tue Mar 09 23:25:03.153017 2021] [php7:error] [pid 9444] [client ::1:54458] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
+[Tue Mar 09 23:25:03.990999 2021] [php7:error] [pid 9444] [client ::1:54458] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
+[Tue Mar 09 23:25:58.479350 2021] [php7:error] [pid 9447] [client ::1:54463] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
+[Tue Mar 09 23:26:08.596848 2021] [php7:error] [pid 1871] [client ::1:54464] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
+[Tue Mar 09 23:35:27.070271 2021] [php7:error] [pid 1894] [client ::1:54512] script '/Applications/MAMP/htdocs/c-19.php' not found or unable to stat

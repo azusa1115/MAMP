@@ -1,0 +1,111 @@
+[03-Mar-2021 12:36:28 UTC] PHP Fatal error:  Uncaught Error: Undefined constant '”\n”' in /Applications/MAMP/htdocs/c3-4.php:5
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-4.php on line 5
+[03-Mar-2021 12:36:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant '”\n”' in /Applications/MAMP/htdocs/c3-4.php:5
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-4.php on line 5
+[03-Mar-2021 12:36:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant '”\n”' in /Applications/MAMP/htdocs/c3-4.php:5
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-4.php on line 5
+[04-Mar-2021 13:07:03 UTC] PHP Notice:  Undefined variable: dat in /Applications/MAMP/htdocs/c3-7.php on line 2
+[04-Mar-2021 13:13:31 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /Applications/MAMP/htdocs/c3-7.php on line 8
+[04-Mar-2021 13:13:32 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /Applications/MAMP/htdocs/c3-7.php on line 8
+[04-Mar-2021 13:13:33 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /Applications/MAMP/htdocs/c3-7.php on line 8
+[05-Mar-2021 12:56:13 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:13 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function day() in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:14 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:14 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function day() in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:14 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:14 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function day() in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:29 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:29 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function day() in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:29 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:29 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function day() in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:29 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:29 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function day() in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:30 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:30 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function day() in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:31 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:31 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function day() in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:32 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:32 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function day() in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:45 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:45 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:45 UTC] PHP Notice:  Undefined variable: day in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:46 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:46 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:46 UTC] PHP Notice:  Undefined variable: day in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:46 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/c3-7.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/c3-7.php on line 16
+[05-Mar-2021 12:56:59 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 14
+[05-Mar-2021 12:56:59 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 15
+[05-Mar-2021 12:56:59 UTC] PHP Notice:  Undefined variable: i in /Applications/MAMP/htdocs/c3-7.php on line 18
+[05-Mar-2021 13:04:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Applications/MAMP/htdocs/c3-8.php on line 5
+[05-Mar-2021 13:04:39 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/c3-8.php on line 4
+[05-Mar-2021 13:04:40 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/c3-8.php on line 4
+[05-Mar-2021 13:06:16 UTC] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/c3-8.php on line 4
+[05-Mar-2021 13:20:37 UTC] PHP Parse error:  syntax error, unexpected ''アイウエオ'' (T_CONSTANT_ENCAPSED_STRING) in /Applications/MAMP/htdocs/c3-9.php on line 2
+[05-Mar-2021 13:24:15 UTC] PHP Notice:  Undefined variable: anser in /Applications/MAMP/htdocs/c3-9.php on line 9
+[05-Mar-2021 13:24:16 UTC] PHP Notice:  Undefined variable: anser in /Applications/MAMP/htdocs/c3-9.php on line 9
+[05-Mar-2021 13:33:11 UTC] PHP Warning:  floor() expects exactly 1 parameter, 2 given in /Applications/MAMP/htdocs/c3-11.php on line 2
+[07-Mar-2021 12:45:34 UTC] PHP Notice:  Undefined index: my_name in /Applications/MAMP/htdocs/c3-17.php on line 6
+[07-Mar-2021 12:47:56 UTC] PHP Notice:  Undefined index: my_name in /Applications/MAMP/htdocs/c3-17.php on line 7
+[08-Mar-2021 15:08:37 UTC] PHP Notice:  Undefined index: submit.php in /Applications/MAMP/htdocs/c3-17.php on line 7
+[08-Mar-2021 15:08:46 UTC] PHP Notice:  Undefined index: submit.php in /Applications/MAMP/htdocs/c3-17.php on line 7
+[08-Mar-2021 15:11:02 UTC] PHP Notice:  Undefined index: my_name in /Applications/MAMP/htdocs/c3-17.php on line 7
+[09-Mar-2021 14:26:18 UTC] PHP Notice:  Undefined index: gender in /Applications/MAMP/htdocs/c-18.php on line 7
+[09-Mar-2021 14:26:21 UTC] PHP Notice:  Undefined index: my_name in /Applications/MAMP/htdocs/submit.php on line 2
+[09-Mar-2021 14:26:27 UTC] PHP Notice:  Undefined index: my_name in /Applications/MAMP/htdocs/submit.php on line 2
+[09-Mar-2021 14:35:37 UTC] PHP Notice:  Undefined index: my_name in /Applications/MAMP/htdocs/submit.php on line 2
+[09-Mar-2021 23:55:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/c3-19.php on line 11
+[09-Mar-2021 23:55:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/c3-19.php on line 11
+[09-Mar-2021 23:55:36 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/c3-19.php on line 11
+[09-Mar-2021 23:55:37 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/c3-19.php on line 11
+[10-Mar-2021 00:02:34 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/c3-19.php on line 12
+[10-Mar-2021 00:02:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/c3-19.php on line 12
+[10-Mar-2021 00:08:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/c3-19.php on line 12
