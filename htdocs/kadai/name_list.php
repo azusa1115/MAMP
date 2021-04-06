@@ -29,10 +29,12 @@ $menbers = $db->query('SELECT * FROM name_list');
     <td>年齢</td>
   </tr>
   
+  
   <?php foreach($menbers as $menber){ ?>
     <tr>
     <td><?php echo $menber['id']."\n"; ?></td>
-    <td><?php echo $menber['name']."\n"; ?></td>
+    <td><a href="plofile.php?id=<?php echo $menber['id']; ?>">
+    <?php echo $menber['name']."\n"; ?></a></td>
     <td><?php echo $menber['department']."\n"; ?></td>
     <td><?php echo $menber['position']."\n"; ?></td>
     <td><?php echo $menber['gender']."\n"; ?></td>
