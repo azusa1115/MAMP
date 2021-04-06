@@ -74,3 +74,23 @@
 [Tue Mar 09 23:25:58.479350 2021] [php7:error] [pid 9447] [client ::1:54463] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
 [Tue Mar 09 23:26:08.596848 2021] [php7:error] [pid 1871] [client ::1:54464] script '/Applications/MAMP/htdocs/c3-18.php' not found or unable to stat
 [Tue Mar 09 23:35:27.070271 2021] [php7:error] [pid 1894] [client ::1:54512] script '/Applications/MAMP/htdocs/c-19.php' not found or unable to stat
+[Wed Mar 10 23:44:08.423979 2021] [php7:error] [pid 9444] [client ::1:58228] script '/Applications/MAMP/htdocs/c3-28.php' not found or unable to stat
+[Wed Mar 10 23:45:20.076994 2021] [php7:error] [pid 1871] [client ::1:58276] script '/Applications/MAMP/htdocs/c3-28.php' not found or unable to stat
+[Sun Mar 14 08:56:19.801423 2021] [mpm_prefork:notice] [pid 1861] AH00169: caught SIGTERM, shutting down
+[Sun Mar 14 08:56:24.316923 2021] [:notice] [pid 52890] FastCGI: process manager initialized (pid 52890)
+[Sun Mar 14 08:56:24.319119 2021] [mpm_prefork:notice] [pid 52886] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Sun Mar 14 08:56:24.319540 2021] [core:notice] [pid 52886] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Sun Mar 14 08:56:27.858136 2021] [mpm_prefork:notice] [pid 52886] AH00169: caught SIGTERM, shutting down
+[Sun Mar 14 08:56:44.203516 2021] [:notice] [pid 53082] FastCGI: process manager initialized (pid 53082)
+[Sun Mar 14 08:56:44.206331 2021] [mpm_prefork:notice] [pid 53077] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Sun Mar 14 08:56:44.206961 2021] [core:notice] [pid 53077] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Wed Mar 17 07:33:44.970067 2021] [php7:error] [pid 53649] [client ::1:56885] script '/Applications/MAMP/htdocs/index2.php' not found or unable to stat
+[Wed Mar 17 07:39:16.179597 2021] [php7:error] [pid 53652] [client ::1:56986] script '/Applications/MAMP/htdocs/index2.php' not found or unable to stat
+[Wed Mar 17 07:39:21.458813 2021] [php7:error] [pid 53652] [client ::1:56986] script '/Applications/MAMP/htdocs/index2.php' not found or unable to stat
+[Wed Mar 17 07:39:22.111881 2021] [php7:error] [pid 53652] [client ::1:56986] script '/Applications/MAMP/htdocs/index2.php' not found or unable to stat
+[Mon Mar 22 15:55:24.241466 2021] [php7:error] [pid 389] [client ::1:54587] script '/Applications/MAMP/htdocs/memo/indez.php' not found or unable to stat
+[Mon Mar 22 16:57:48.250817 2021] [php7:error] [pid 71172] [client ::1:54718] script '/Applications/MAMP/htdocs/memo/imemo.php' not found or unable to stat
+[Mon Mar 22 16:57:52.182579 2021] [php7:error] [pid 71172] [client ::1:54718] script '/Applications/MAMP/htdocs/memo/imemo.php' not found or unable to stat
+[Mon Mar 22 21:46:52.675993 2021] [php7:error] [pid 83511] [client ::1:55575] script '/Applications/MAMP/htdocs/memo/input.php' not found or unable to stat
+[Mon Mar 22 21:46:56.937567 2021] [php7:error] [pid 83511] [client ::1:55575] script '/Applications/MAMP/htdocs/memo/input.php' not found or unable to stat
+[Mon Mar 22 21:46:58.954164 2021] [php7:error] [pid 83511] [client ::1:55575] script '/Applications/MAMP/htdocs/memo/input.php' not found or unable to stat
