@@ -100,3 +100,15 @@
 [Tue Mar 30 22:19:29.353581 2021] [core:notice] [pid 1177] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
 [Sat Apr 03 23:57:41.749384 2021] [php7:error] [pid 16647] [client ::1:57573] script '/Applications/MAMP/htdocs/index2.php' not found or unable to stat
 [Sat Apr 03 23:58:48.882541 2021] [php7:error] [pid 1414] [client ::1:57582] script '/Applications/MAMP/htdocs/portfoliodocomo.php' not found or unable to stat
+[Wed Apr 21 23:25:53.850107 2021] [mpm_prefork:notice] [pid 1177] AH00169: caught SIGTERM, shutting down
+[Wed Apr 21 23:31:18.114160 2021] [:notice] [pid 1177] FastCGI: process manager initialized (pid 1177)
+[Wed Apr 21 23:31:18.117206 2021] [mpm_prefork:notice] [pid 1171] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Wed Apr 21 23:31:18.117706 2021] [core:notice] [pid 1171] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Sun May 02 23:19:50.740224 2021] [php7:error] [pid 1181] [client ::1:60795] script '/Applications/MAMP/htdocs/portfolio/check_sb_.php' not found or unable to stat, referer: http://localhost:8888/portfolio/sb.php
+[Sun May 02 23:20:13.382088 2021] [php7:error] [pid 1213] [client ::1:60804] script '/Applications/MAMP/htdocs/portfolio/check_sb_.php' not found or unable to stat, referer: http://localhost:8888/portfolio/sb.php
+[Sun May 02 23:20:17.314357 2021] [php7:error] [pid 1213] [client ::1:60804] script '/Applications/MAMP/htdocs/portfolio/check_sb_.php' not found or unable to stat, referer: http://localhost:8888/portfolio/sb.php
+[Sun May 02 23:21:08.774544 2021] [php7:error] [pid 29541] [client ::1:60806] script '/Applications/MAMP/htdocs/portfolio/check_sb_.php' not found or unable to stat, referer: http://localhost:8888/portfolio/sb.php
+[Sun May 02 23:21:13.911552 2021] [php7:error] [pid 1182] [client ::1:60807] script '/Applications/MAMP/htdocs/portfolio/check_sb_.php' not found or unable to stat, referer: http://localhost:8888/portfolio/sb.php
+[Sun May 02 23:26:32.432707 2021] [php7:error] [pid 1227] [client ::1:60823] script '/Applications/MAMP/htdocs/portfolio/check_sb_.php' not found or unable to stat, referer: http://localhost:8888/portfolio/sb.php
+[Sun May 02 23:27:24.036140 2021] [php7:error] [pid 29473] [client ::1:61031] script '/Applications/MAMP/htdocs/portfolio/check_sb_.php' not found or unable to stat, referer: http://localhost:8888/portfolio/sb.php
+[Sun May 02 23:27:24.697633 2021] [php7:error] [pid 29473] [client ::1:61031] script '/Applications/MAMP/htdocs/portfolio/check_sb_.php' not found or unable to stat, referer: http://localhost:8888/portfolio/sb.php

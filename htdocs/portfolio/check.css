@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(137, 250, 212);
+  text-align: center;
+}
+
+td{
+  font-size: 20px;
+  padding: 30px;
+}
+
+table{
+  margin: 0 auto;
+}
+
+span{
+  font-weight: 900;
+  font-size: 30px;
+}
+
+/* #two_years{
+  display: none;
+} */
