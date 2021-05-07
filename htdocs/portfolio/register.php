@@ -1,16 +1,15 @@
 <?php require('dbconnect.php'); ?>
 <?php
-$entry = $db->prepare('INSERT INTO docomo_users SET line=?,plan=?,tel=?,family=?,internet=?,two_years=?,dcard=?,status=?');
+$entry = $db->prepare('INSERT INTO docomo_users SET line=?,plan=?,tel=?,family=?,two_years=?,dcard=?');
 //事前準備prepare
 echo $entry->execute(array(
-  $_POST['line'],
+  $_POST['4g5g'],
   $_POST['plan'],
   $_POST['tel'],
   $_POST['family'],
-  $_POST['internet'],
   $_POST['two_years'],
-  $_POST['dcard'],
-  $_POST['status']
+  $_POST['dcard']
+  
   ));
 ?>
 <!DOCTYPE html>
