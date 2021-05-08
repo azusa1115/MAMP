@@ -17,6 +17,11 @@ span{
   font-size: 30px;
 }
 
+#total{
+  font-weight: 900;
+  font-size:40px;
+}
+
 /* #two_years{
   display: none;
 } */

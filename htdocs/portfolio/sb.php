@@ -1,5 +1,6 @@
 <?php require('dbconnect.php'); ?>
 
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -15,11 +16,11 @@
 <h2>ニックネーム</h2>
 <input type="text" id="my_name" name="my_name" maxlength="255" value=""><br>
 <h2>基本プラン</h2>
-<select>
+<select name='plan'>
   <?php
   $sbs = $db->query('SELECT * FROM softbank');
   while( $sb = $sbs->fetch()){ ?>
-  <option><?php echo $sb['plan'].$sb['price'].'円'; ?></option>
+  <option  value="<?php echo $sb['id']; ?>"><?php echo $sb['plan'].$sb['price'].'円'; ?></option>
   <?php } ?>
 </select>
 

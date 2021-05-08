@@ -21,28 +21,35 @@ $total_price = 0;
 
 
 $internet_pay = 0;
+$internet_price = 0;
 $internet_payFlag = 0;
 
 if ($NowLine == '4g'){
   if($_POST['docomo1'] == 1 ){
     $internet_pay = 0;
+    $internet_price = '０円';
     $internet_payFlag = 0;
   }else if($_POST['docomo1'] == 2){
     $internet_pay = 500;
+    $internet_price = 'ー５００円';
     $internet_payFlag = 1;
   }else{
     $internet_pay = 1000;
+    $internet_price = '−１０００円';
     $internet_payFlag = 2;
   }
 }else if($NowLine == '5g'){
   if($_POST['docomo2'] == 1 ){
     $internet_pay = 0;
+    $internet_price = '０円';
     $internet_payFlag = 0;
   }else if($_POST['docomo2'] == 2){
     $internet_pay = 500;
+    $internet_price = '−５００円';
     $internet_payFlag = 1;
   }else{
     $internet_pay = 1000;
+    $internet_price = '−１０００円';
     $internet_payFlag = 2;
   }
 }
@@ -160,6 +167,11 @@ $total_price -= $internet_pay;
     <td><span><?php echo $family_pay;?></span></td>
     <input type="hidden" name="family" value="<?php echo $family_payFlag; ?>">
   </tr>
+  <tr>
+    <td>ドコモ光セット割</td>
+    <td><?php echo $_POST['internet']; ?></td>
+    <td><span><?php echo $internet_price; ?></span></td>
+  </tr>
  
     <?php
     if( $NowLine == "4g" && $twoYears == "あり" ){
@@ -186,10 +198,7 @@ $total_price -= $internet_pay;
   <?php } ?>
 </table>
 
-
-<?php echo $total_price; ?>
-
-
+<div id="total">合計金額 <?php echo $total_price; ?> 円<br>
 
 
 <input type="submit" value="送信">
