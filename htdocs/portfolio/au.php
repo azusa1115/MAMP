@@ -12,5 +12,10 @@
 <link rel="stylesheet" href="au.css">
 </head>
 <body>
+
+<h1>現在の料金プラン確認</h1>
+<form action="" method="post">
+<h2>基本プラン</h2>
+</form>
 </body>
 </html>

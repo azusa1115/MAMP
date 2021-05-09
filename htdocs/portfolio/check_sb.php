@@ -76,4 +76,6 @@ if( $_POST['internet'] == 'あり' ){
     <td><?php echo $internet_price; ?></td>
   </tr>
 </table>
+
+<input type="submit" value="送信">
 </body>

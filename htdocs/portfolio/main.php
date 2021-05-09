@@ -13,7 +13,7 @@
 
 <div id="3c">
 <a href="docomo.php?id=<?php echo $plan['id']; ?> ">docomo</a>
-<a href="#">au</a>
+<a href="au.php">au</a>
 <a href="sb.php">softbank</a>
 <div>
 
