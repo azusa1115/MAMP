@@ -171,6 +171,7 @@ $total_price -= $internet_pay;
     <td>ドコモ光セット割</td>
     <td><?php echo $_POST['internet']; ?></td>
     <td><span><?php echo $internet_price; ?></span></td>
+    <input type="hidden" name="internet" value="<?php echo $internet_payFlag; ?>">
   </tr>
  
     <?php
