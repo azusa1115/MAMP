@@ -15,6 +15,11 @@
 <h1>現在の料金プラン確認</h1>
 <form action="" method="post">
 <h2>基本プラン</h2>
+<h2>家族割プラス</h2>
+<p>１人<input type="radio" name="family"></p>
+<p>２人<input type="radio" name="family">
+<p>３人以上<input type="radio" name="family"></p>
+<h2>auスマートバリュー</h2>
 </form>
 </body>
 </html>
