@@ -8,9 +8,10 @@ $softbank = $softbanks->fetch();
 
 $total_price = 0;
 $plan_price = $softbank['price'];
+$total_price += $plan_price;
 $tel_flag = 0;
-
 $tel_price = 0;
+
 if( $_POST['tel'] == '定額オプション＋'){
   $total_price += 1980;
   $tel_price = '１９８０円';
@@ -95,6 +96,8 @@ if( $_POST['internet'] == 'あり' ){
     <input type="hidden" name="internet" value="<?php echo $internet_flag;?>">
   </tr>
 </table>
+
+<div id="total">合計金額 <?php echo $total_price; ?> 円<br>
 
 <input type="submit" value="送信">
 </form>

@@ -1,5 +1,9 @@
 <?php require('dbconnect.php'); ?>
-
+<?php
+$au_plan = $db->query('SELECT * FROM au1');
+$au_plans = $au_plan->fetchAll();
+echo $au_plans['plan'];
+?>
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -12,8 +16,10 @@
 </head>
 <body>
 
-<h1>現在の料金プラン確認</h1>
+
 <form action="" method="post">
+<h1>現在の料金プラン確認</h1>
+
 <h2>基本プラン</h2>
 <h2>家族割プラス</h2>
 <p>１人<input type="radio" name="family"></p>

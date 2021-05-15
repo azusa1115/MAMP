@@ -25,9 +25,9 @@
 
 <h2>通話オプション</h2>
 <h3>定額オプション＋<input type="radio" name="tel" value="定額オプション＋"></h3>
-<p>１回５分以内の国内通話が何度でも</pack>
-<h3>準定額オプション＋<input type="radio" name="tel" value="準定額オプション＋"></h3>
 <p>２４時間いつでも国内通話がし放題</p>
+<h3>準定額オプション＋<input type="radio" name="tel" value="準定額オプション＋"></h3>
+<p>１回５分以内の国内通話が何度でも</p>
 <h3>なし<input type="radio" name="tel" value="なし"></h3>
 
 <h2>新みんな家族割</h2>

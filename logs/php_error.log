@@ -4576,3 +4576,11 @@ Stack trace:
  in /Applications/MAMP/htdocs/portfolio/register_sb.php on line 23
 [12-May-2021 13:49:09 UTC] PHP Notice:  Undefined index: plan
  in /Applications/MAMP/htdocs/portfolio/register_sb.php on line 23
+[15-May-2021 14:52:35 UTC] PHP Notice:  Undefined variable: plan in /Applications/MAMP/htdocs/portfolio/main.php on line 15
+[15-May-2021 14:52:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/main.php on line 15
+[15-May-2021 14:52:36 UTC] PHP Notice:  Undefined index: plan in /Applications/MAMP/htdocs/portfolio/au.php on line 5
+[15-May-2021 14:52:38 UTC] PHP Notice:  Undefined index: plan in /Applications/MAMP/htdocs/portfolio/au.php on line 5
+[15-May-2021 14:52:38 UTC] PHP Notice:  Undefined index: plan in /Applications/MAMP/htdocs/portfolio/au.php on line 5
+[15-May-2021 14:52:39 UTC] PHP Notice:  Undefined index: plan in /Applications/MAMP/htdocs/portfolio/au.php on line 5
+[15-May-2021 14:52:54 UTC] PHP Notice:  Undefined index: plan in /Applications/MAMP/htdocs/portfolio/au.php on line 5
+[15-May-2021 14:52:55 UTC] PHP Notice:  Undefined index: plan in /Applications/MAMP/htdocs/portfolio/au.php on line 5
