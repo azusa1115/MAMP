@@ -1,4 +1,14 @@
 <?php require('dbconnect.php'); ?>
+
+<?php
+session_start();
+
+if(!isset($_SESSION['join'])){
+  header('Lcation: menber.php');
+  exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -13,16 +23,16 @@
   <form method="post">
   <table>
     <tr>
-      <td>メールアドレス</td>
-      <td><?php echo $_POST['mail'] ?></td>
+      <td>ニックネーム</td>
+      <td><?php echo (htmlspecialchars($_SESSION['join']['menber_name'])); ?></td>
     </tr>
     <tr>
-      <td>ニックネーム</td>
-      <td><?php echo $_POST['menber_name'] ?></td>
+      <td>メールアドレス</td>
+      <td><?php echo (htmlspecialchars($_SESSION['join']['mail'])); ?></td>
     </tr>
   </table>
-  <button type="submit" name="menber" value="return">戻る</button>
-  <button type="submit" name="menber" value="send">送信</button>
+  <button type="button" name="menber" value="return" onclick="location.href='menber.php'">戻る</button>
+  <button type="button" name="menber" value="send">送信</button>
   </form>
   <?php
   $menbers = $db->prepare('INSERT account SET ,mail=?,menber_name=?');

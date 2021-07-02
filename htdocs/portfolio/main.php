@@ -23,8 +23,10 @@
 <h2>まずは現状のプランを確認しましょう！</h2>
 </div>
 
-  <button type="button" onclick="location.href='menber.php'" id="login">新規登録</a>
-  
+
+  <input type="button" onclick="location.href='menber.php'" id="login">新規登録</button>
+
+
 
 
 <!-- <p id="select">現在ご利用中のキャリアを選んでください</p>

@@ -4367,3 +4367,19 @@ Version: '5.7.32'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 8889
 2021-07-02T06:44:11.917324Z 15 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
 2021-07-02T06:44:11.920066Z 15 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
 2021-07-02T06:44:11.920126Z 15 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2021-07-02T07:43:32.670205Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 877992ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T08:07:17.588773Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 42616ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T08:59:26.531875Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25785ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T09:15:18.528887Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 900801ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T09:54:47.476243Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2321669ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T10:18:10.491710Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 900759ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T10:49:13.325171Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1815578ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T12:02:53.762839Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4125446ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T12:21:11.345227Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 906190ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T13:19:13.752951Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3471385ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T13:44:02.183193Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 906179ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T13:59:44.673908Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 931499ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T14:27:59.524768Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 68516ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T14:31:08.908779Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 14783ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T14:43:35.081669Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 454182ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2021-07-02T14:52:59.393304Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 32576ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

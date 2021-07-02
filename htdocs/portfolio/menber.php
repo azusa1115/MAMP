@@ -1,4 +1,10 @@
 <?php
+session_start();
+
+
+if(!empty($_POST)){
+// フォームが送信されてないときはエラー
+
 if($_POST['menber_name'] === ''){
   $error['menber_name'] = 'blank';
 }
@@ -6,8 +12,12 @@ if($_POST['mail'] === ''){
   $error['mail'] = 'blank';
 }
 
-(empty($error)('Location: menber_check.php');
-exit();
+if(empty($error)){
+  $_SESSION['join'] = $_POST;
+  header('Location: menber_check.php');
+  exit();
+  }
+}
 ?>
 
 <?php require('dbconnect.php'); ?>
@@ -30,7 +40,7 @@ exit();
         <p class="error">＊ニックネームを入力してください</p>
       <?php endif; ?>
       </td>
-      <td><input type="text" name="menber_name" value="">
+      <td><input type="text" name="menber_name" value="<?php echo (htmlspecialchars($_POST['menber_name'])); ?>">
     </td>
     </tr>
     <tr>
@@ -39,7 +49,7 @@ exit();
         <p class="error">＊メールアドレスを入力してください</p>
       <?php endif; ?>
       </td>
-      <td><input type="email" name="mail" value=""></td>
+      <td><input type="email" name="mail" value="<?php echo (htmlspecialchars($_POST['mail'])); ?>"></td>
     </tr>
   </table>
   <input type="submit" value="送信">
