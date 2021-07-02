@@ -1,0 +1,86 @@
+body{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid rgb(238, 111, 61) 5px;
+  margin: 50px;
+}
+
+h1{
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
+  height: 100px;
+  line-height: 100px;
+  background-color: white;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border-bottom: solid rgb(238, 111, 61);
+}
+
+#au{
+margin-top: 50px;
+font-size: 30px;
+width: 300px;
+background-color: rgb(238, 111, 61);
+}
+
+#my_name{
+  border: 1px  rgb(250,128,114) solid;
+  padding: 10px;
+  width: 200px;
+  margin: 0px 20px 50px 20px;
+}
+
+select{
+  margin: 0 20px 50px 20px;
+  width: 450px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px rgb(250,128,114) solid;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2{
+  margin: 0 auto;
+  border-radius: 10px;
+  line-height: 40px;
+  background-color: white;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom:20px;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+label{
+  display: inline-block;
+  width: 200px;
+  margin: 0 20px 50px 20px;
+  padding: 10px;
+  border: 1px rgb(248, 147, 107)solid;
+  border-radius: 30px;
+}
+
+label:hover{
+  background: rgba(248, 147, 107, 0.5);
+}
+
+input[type=radio]:checked+label{
+  background-color:rgba(248, 147, 107, 0.5);
+}
+
+input[type=submit]{
+  width: 100px;
+  margin: 35px 20px 50px 20px;
+  padding: 10px;
+  border: 1px rgb(248, 147, 107) solid;
+  border-radius: 30px;
+  font-size: 25px;
+  background-color: white;
+}
+
+

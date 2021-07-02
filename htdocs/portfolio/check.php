@@ -137,40 +137,43 @@ $total_price -= $internet_pay;
 </head>
 <body>
 <form action="register.php" method="post">
-<?php print(htmlspecialchars($_POST['my_name'],ENT_QUOTES)); ?>さんの現在のプラン
+
+<h1 id="top"><?php print(htmlspecialchars($_POST['my_name'],ENT_QUOTES)); ?>さんの現在のプラン</h1>
+
 <table>
   <input type="hidden" name='4g5g' value="<?php echo $NowLineFlag; ?>">
   <tr>
-    <td>基本プラン</td>
+  <td class="label-text" class="tag"><img src="261244.jpg" class="image"><p>基本プラン</p>
     <?php if ( $NowLine == "4g"){ ?>
       <td><?php echo $plan4g['plan']; ?></td>
       <input type="hidden" name="plan" value="<?php echo $plan4g['plan']; ?>">
-      <td><span><?php echo $plan4g['price'].'円'; ?></span></td>
+      <td class="right"><span><?php echo $plan4g['price'].'円'; ?></span></td>
     </tr>
     <?php }else if( $NowLine = "5g"){ ?>
       <td><?php echo $plan5g['plan']; ?></td>
       <input type="hidden" name="plan" value="<?php echo $plan5g['plan']; ?>">
-      <td><span><?php echo $plan5g['price'].'円'; ?></span></td>
+      <td class="right"><span><?php echo $plan5g['price'].'円'; ?></span></td>
     </tr>
     <?php } ?>
 
    
   <tr>
-    <td>音声オプション</td>
+    <td class="label-text"><img src="261244.jpg" class="image"><p>音声オプション</p></td>
     <td><?php print(htmlspecialchars($_POST['tel'],ENT_QUOTES)); ?></td>
-    <td><span><?php echo $tel_pay;?></span></td>
+    <td class="right"><span><?php echo $tel_pay;?></span></td>
     <input type="hidden" name="tel" value="<?php echo $tel_payFlag; ?>">
   </tr>
   <tr>
-    <td>みんなドコモ割</td>
+    <td class="label-text"><img src="261244.jpg" class="image"><p>みんなドコモ割</p>
     <td><?php print(htmlspecialchars($_POST['family'],ENT_QUOTES)); ?></td>
-    <td><span><?php echo $family_pay;?></span></td>
+    <td class="right"><span><?php echo $family_pay;?></span></td>
     <input type="hidden" name="family" value="<?php echo $family_payFlag; ?>">
   </tr>
+
   <tr>
-    <td>ドコモ光セット割</td>
+    <td class="label-text"><img src="261244.jpg" class="image"><p>ドコモ光セット割</p>
     <td><?php echo $_POST['internet']; ?></td>
-    <td><span><?php echo $internet_price; ?></span></td>
+    <td class="right"><span><?php echo $internet_price; ?></span></td>
     <input type="hidden" name="internet" value="<?php echo $internet_payFlag; ?>">
   </tr>
  
@@ -179,9 +182,9 @@ $total_price -= $internet_pay;
 
     }else{ ?>
     <tr>
-    <td>dカード支払い</td>
+    <td class="label-text"><img src="261244.jpg" class="image"><p>dカード支払い</p>
     <td><?php print(htmlspecialchars($_POST['dCard'],ENT_QUOTES)); ?></td>
-    <td><span><?php echo $dCard_pay;?></span></td>
+    <td class="right"><span><?php echo $dCard_pay;?></span></td>
     <input type="hidden" name="dcard" value="<?php echo $dCard_payFlag; ?>">
     </tr>
     <?php } ?>
@@ -191,16 +194,18 @@ $total_price -= $internet_pay;
 
   }else{ ?>
   <tr id="two_years">
-    <td>２年定期契約</td>
+    <td class="label-text"><img src="261244.jpg" class="image"><p>２年定期契約</p>
     <td><?php print(htmlspecialchars($_POST['twoYears'],ENT_QUOTES)); ?></td>
-    <td><span><?php echo $two_years_pay;?></span></td>
+    <td class="right"><span><?php echo $two_years_pay;?></span></td>
     <input type="hidden" name="two_years" value="<?php echo $two_years_payFlag; ?>">
   </tr>
   <?php } ?>
+<tr>
+  <td class="last"><span>合計金額</span></td>
+  <td class="last"></td>
+  <td id="total" class="right"><?php echo $total_price; ?>円</td>
+<tr>
 </table>
-
-<div id="total">合計金額 <?php echo $total_price; ?> 円<br>
-
 
 <input type="submit" value="送信">
 </form>

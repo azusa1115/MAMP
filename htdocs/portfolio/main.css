@@ -1,24 +1,94 @@
 body{
-  background-color: rgb(255, 246, 123);
+   text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid rgb(255, 234, 112) 5px;
+    margin: 50px;
 }
 
-h1{
-  margin: 0 auto;
-  text-align: center;
+
+#main-top{
+  background-color:rgb(255, 234, 112);
+  font-size: 30px;
+  line-height: 0.6;
+  padding: 15px 15px 15px 40px;
   border-radius: 30px;
-  width: 600px;
-  height: 100px;
-  line-height: 100px;
-  background-color: white;
-  font-size: 50px;
-  margin-top:50px;
+  margin: 60px 40px 0 40px;
 }
 
 a{
+  display: inline-block;
   text-decoration:none;
+  font-size: 23px;
+  padding: 30px;
+  width: 100px;
+  height:100px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 100px;
+  margin: 15px;
+  color: antiquewhite;
 }
 
-#3c{
-  text-align:center;
+#docomo{
+  border:rgb(199, 41, 80) solid;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.548);
 }
 
+#au{
+  border: rgb(231, 110, 44) solid;
+  background-color: white;
+  color: black;
+}
+
+#sb{
+  border: rgb(41, 40, 40) solid;
+  background-color: white;
+  color: black;
+}
+
+img.main-pic{
+  width: 450px;
+  height: 200px;
+  right: 20px;
+  padding-bottom: 0;
+  vertical-align: bottom;
+  margin-left: 50px;
+  float: right;
+}
+
+#comment{
+  padding:30px 15px 30px 40px;
+  font-size: 18px;
+  line-height: 5px;
+  letter-spacing: 1px;
+  margin: 20px 40px 0 40px;
+}
+
+h2{
+  margin-top: 30px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+#select{
+  color:;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#c3{
+  margin: 0 auto;
+  margin-right: 70px;
+
+}
+
+#login{
+    width: 200px;
+    margin: 35px 20px 50px 20px;
+    padding: 10px 30px;
+    font-size: 30px;
+    background-color: rgb(199, 92, 241);
+    text-align: center;
+    border-radius: 30px;
+}

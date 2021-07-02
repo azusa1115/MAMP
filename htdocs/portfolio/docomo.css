@@ -1,46 +1,92 @@
 body{
-  background-color: rgb(137, 250, 212);
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid rgb(238, 61, 61) 5px;
+  margin: 50px;
 }
 
 h1{
   margin: 0 auto;
   text-align: center;
-  border-radius: 30px;
   width: 600px;
   height: 100px;
   line-height: 100px;
   background-color: white;
   font-size: 50px;
-  margin-top:50px;
+  margin-top: 20px;
   margin-bottom: 100px;
+  border-bottom: solid rgb(238, 61, 61);
+}
+
+#my_name{
+  border: 1px  rgb(250,128,114)solid;
+  padding: 10px;
+  width: 200px;
+  margin: 0px 20px 50px 20px;
+}
+
+#docomo{
+  margin-top: 50px;
+  font-size: 30px;
+  width: 300px;
+  background-color: rgb(238, 61, 61);
 }
 
 h2{
   margin: 0 auto;
-  text-align: center;
   border-radius: 10px;
-  width: 200px;
-  height: 40px;
   line-height: 40px;
   background-color: white;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 30px;
   margin-bottom:20px;
 }
 
-#docomo1,#docomo2{
+select{
+  margin: 0 20px 50px 20px;
+  width: 450px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px rgb(250,128,114) solid;
+  font-size: 20px;
+  text-align: center;
+}
+
+#radio5{
   display:none;
 }
 
-#contract{
-  display:none;
-}
-
-#dcard{
+#radio6{
   display:none;
 }
 
 input[type=radio]{
   display: none;
+}
+
+input[type=radio]:checked+label{
+  background-color: rgba(250,128,114,0.5);
+}
+
+label{
+  display: inline-block;
+  width: 200px;
+  margin: 0 20px 50px 20px;
+  padding: 10px;
+  border: 1px rgb(250,128,114) solid;
+  border-radius: 30px;
+}
+
+label:hover{
+  background:rgba(250,128,114,0.5);
+}
+
+
+input[type=submit]{
+  width: 300px;
+  margin: 35px 20px 50px 20px;
+  padding: 10px 30px;
+  font-size: 40px;
+  background-color: rgb(250,128,114);
+  text-align: center;
 }
