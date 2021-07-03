@@ -1,5 +1,4 @@
 <?php require('dbconnect.php'); ?>
-
 <?php
 session_start();
 
@@ -8,6 +7,7 @@ if(!isset($_SESSION['join'])){
   exit();
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -31,7 +31,7 @@ if(!isset($_SESSION['join'])){
       <td><?php echo (htmlspecialchars($_SESSION['join']['mail'])); ?></td>
     </tr>
   </table>
-  <button type="button" name="menber" value="return" onclick="location.href='menber.php'">戻る</button>
+  <button type="button" name="menber" value="return" onclick="history.back()">戻る</button>
   <button type="button" name="menber" value="send">送信</button>
   </form>
   <?php
