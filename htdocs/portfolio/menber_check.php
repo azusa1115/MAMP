@@ -1,11 +1,23 @@
 <?php require('dbconnect.php'); ?>
 <?php
+  if(!empty($_POST)){
+  $menbers = $db->prepare('INSERT account SET ,mail=?,menber_name=?');
+  $menbers->execute(array($_POST['mail']));
+
+  header('Location: compilation.php');
+  exit();
+  }
+  ?>
+<?php
 session_start();
 
 if(!isset($_SESSION['join'])){
   header('Lcation: menber.php');
   exit();
 }
+
+
+
 ?>
 
 
@@ -25,17 +37,16 @@ if(!isset($_SESSION['join'])){
     <tr>
       <td>ニックネーム</td>
       <td><?php echo (htmlspecialchars($_SESSION['join']['menber_name'])); ?></td>
+      <input type="hidden" name="menber_name">
     </tr>
     <tr>
       <td>メールアドレス</td>
       <td><?php echo (htmlspecialchars($_SESSION['join']['mail'])); ?></td>
     </tr>
+    <input type="hidden" name="mail">
   </table>
   <button type="button" name="menber" value="return" onclick="history.back()">戻る</button>
-  <button type="button" name="menber" value="send">送信</button>
+  <input type="submit" name="menber" value="send">送信</button>
   </form>
-  <?php
-  $menbers = $db->prepare('INSERT account SET ,mail=?,menber_name=?');
-  $menbers->execute(array($_POST['mail']))
-  ?>
+
 </body>
