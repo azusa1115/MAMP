@@ -8,6 +8,7 @@ if(!empty($_POST)){
 if($_POST['menber_name'] === ''){
   $error['menber_name'] = 'blank';
 }
+
 if($_POST['mail'] === ''){
   $error['mail'] = 'blank';
 }
@@ -52,10 +53,9 @@ if(empty($error)){
       <td><input type="email" name="mail" value="<?php echo (htmlspecialchars($_POST['mail'])); ?>"></td>
     </tr>
   </table>
+  
   <input type="submit" value="送信">
 
   </form>
 
-  <?php if(filter_var($email,FILTER_VALIDATE_EMAIL))
-  ?>
 </body>

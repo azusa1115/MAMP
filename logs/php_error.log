@@ -8048,3 +8048,131 @@ Stack trace:
 [07-Jul-2021 14:36:17 UTC] PHP Notice:  Undefined variable: visited in /Applications/MAMP/htdocs/study/form/session/sessiontest_1.php on line 22
 [07-Jul-2021 14:36:17 UTC] PHP Warning:  Use of undefined constant c - assumed 'c' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/study/form/session/sessiontest_1.php on line 29
 [07-Jul-2021 14:37:10 UTC] PHP Notice:  Undefined variable: visited in /Applications/MAMP/htdocs/study/form/session/sessiontest_1.php on line 22
+[09-Jul-2021 14:43:05 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[09-Jul-2021 14:43:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[09-Jul-2021 14:43:05 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 43
+[09-Jul-2021 14:43:05 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[09-Jul-2021 14:43:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[09-Jul-2021 14:43:05 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 52
+[09-Jul-2021 14:43:05 UTC] PHP Notice:  Undefined variable: email in /Applications/MAMP/htdocs/portfolio/menber.php on line 59
+[09-Jul-2021 14:43:23 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[09-Jul-2021 14:43:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[09-Jul-2021 14:43:23 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 43
+[09-Jul-2021 14:43:23 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[09-Jul-2021 14:43:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[09-Jul-2021 14:43:23 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 52
+[09-Jul-2021 14:43:23 UTC] PHP Notice:  Undefined variable: email in /Applications/MAMP/htdocs/portfolio/menber.php on line 59
+[09-Jul-2021 14:43:29 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[09-Jul-2021 14:43:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[09-Jul-2021 14:43:29 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 43
+[09-Jul-2021 14:43:29 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[09-Jul-2021 14:43:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[09-Jul-2021 14:43:29 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 52
+[09-Jul-2021 14:43:29 UTC] PHP Notice:  Undefined variable: email in /Applications/MAMP/htdocs/portfolio/menber.php on line 59
+[09-Jul-2021 14:44:32 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[09-Jul-2021 14:44:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[09-Jul-2021 14:44:32 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 43
+[09-Jul-2021 14:44:32 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[09-Jul-2021 14:44:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[09-Jul-2021 14:44:32 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 52
+[09-Jul-2021 14:44:32 UTC] PHP Notice:  Undefined variable: email in /Applications/MAMP/htdocs/portfolio/menber.php on line 59
+[10-Jul-2021 14:27:51 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:27:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:27:51 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 43
+[10-Jul-2021 14:27:51 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:27:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:27:51 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 52
+[10-Jul-2021 14:27:51 UTC] PHP Notice:  Undefined variable: email in /Applications/MAMP/htdocs/portfolio/menber.php on line 59
+[10-Jul-2021 14:28:41 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:28:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:28:41 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 43
+[10-Jul-2021 14:28:41 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:28:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:28:41 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 52
+[10-Jul-2021 14:28:41 UTC] PHP Notice:  Undefined variable: email in /Applications/MAMP/htdocs/portfolio/menber.php on line 59
+[10-Jul-2021 14:29:27 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:29:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:29:27 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 43
+[10-Jul-2021 14:29:27 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:29:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:29:27 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 52
+[10-Jul-2021 14:29:27 UTC] PHP Notice:  Undefined variable: email in /Applications/MAMP/htdocs/portfolio/menber.php on line 59
+[10-Jul-2021 14:32:55 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:32:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:32:55 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 44
+[10-Jul-2021 14:32:55 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:32:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:32:55 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 53
+[10-Jul-2021 14:32:55 UTC] PHP Notice:  Undefined variable: email in /Applications/MAMP/htdocs/portfolio/menber.php on line 60
+[10-Jul-2021 14:34:48 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:34:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:34:48 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 44
+[10-Jul-2021 14:34:48 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:34:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:34:48 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 53
+[10-Jul-2021 14:34:53 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:34:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:34:53 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 44
+[10-Jul-2021 14:34:53 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:34:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:34:53 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 53
+[10-Jul-2021 14:35:25 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:35:25 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 44
+[10-Jul-2021 14:35:25 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:35:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:35:25 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 53
+[10-Jul-2021 14:35:28 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:35:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:35:28 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 44
+[10-Jul-2021 14:35:28 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:35:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:35:28 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 53
+[10-Jul-2021 14:35:30 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:35:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:35:30 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 44
+[10-Jul-2021 14:35:30 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:35:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:35:30 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 53
+[10-Jul-2021 14:42:31 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:42:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:42:31 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 43
+[10-Jul-2021 14:42:31 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:42:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:42:31 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 52
+[10-Jul-2021 14:42:32 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:42:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:42:32 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 43
+[10-Jul-2021 14:42:32 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:42:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:42:32 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 52
+[10-Jul-2021 14:42:35 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:42:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 39
+[10-Jul-2021 14:42:35 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 43
+[10-Jul-2021 14:42:35 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:42:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 48
+[10-Jul-2021 14:42:35 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 52
+[10-Jul-2021 14:43:56 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:43:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:43:56 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 44
+[10-Jul-2021 14:43:56 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:43:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:43:56 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 53
+[10-Jul-2021 14:43:57 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:43:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:43:57 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 44
+[10-Jul-2021 14:43:57 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:43:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:43:57 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 53
+[10-Jul-2021 14:44:04 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:44:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:44:04 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 44
+[10-Jul-2021 14:44:04 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:44:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:44:04 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 53
+[10-Jul-2021 14:44:46 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:44:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 40
+[10-Jul-2021 14:44:46 UTC] PHP Notice:  Undefined index: menber_name in /Applications/MAMP/htdocs/portfolio/menber.php on line 44
+[10-Jul-2021 14:44:46 UTC] PHP Notice:  Undefined variable: error in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:44:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/portfolio/menber.php on line 49
+[10-Jul-2021 14:44:46 UTC] PHP Notice:  Undefined index: mail in /Applications/MAMP/htdocs/portfolio/menber.php on line 53

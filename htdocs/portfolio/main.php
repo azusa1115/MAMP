@@ -24,7 +24,7 @@
 </div>
 
 
-  <input type="button" onclick="location.href='menber.php'" id="login">新規登録</button>
+  <button type="button" onclick="location.href='menber.php'" id="login">新規登録</button>
 
 
 
