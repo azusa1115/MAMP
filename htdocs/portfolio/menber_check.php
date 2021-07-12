@@ -8,17 +8,7 @@
   exit();
   }
   ?>
-<?php
-session_start();
 
-if(!isset($_SESSION['join'])){
-  header('Lcation: menber.php');
-  exit();
-}
-
-
-
-?>
 
 
 <!DOCTYPE html>
@@ -36,17 +26,16 @@ if(!isset($_SESSION['join'])){
   <table>
     <tr>
       <td>ニックネーム</td>
-      <td><?php echo (htmlspecialchars($_SESSION['join']['menber_name'])); ?></td>
+      <td><input type="text" name="menber_name" value="<?php print (htmlspecialchars(isset($_POST['menber_name']),ENT_QUOTES)); ?>"></td>
       <input type="hidden" name="menber_name">
     </tr>
     <tr>
       <td>メールアドレス</td>
-      <td><?php echo (htmlspecialchars($_SESSION['join']['mail'])); ?></td>
+      <td><input type="email" name="mail" value="<?php echo (htmlspecialchars(isset($_POST['mail']))); ?>"</td>
     </tr>
     <input type="hidden" name="mail">
   </table>
-  <button type="button" name="menber" value="return" onclick="history.back()">戻る</button>
-  <input type="submit" name="menber" value="send">送信</button>
+  <input type="submit" name="menber" value="送信"></button>
   </form>
 
 </body>

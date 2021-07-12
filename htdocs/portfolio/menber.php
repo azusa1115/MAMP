@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 
 if(!empty($_POST)){
@@ -9,7 +8,7 @@ if($_POST['menber_name'] === ''){
   $error['menber_name'] = 'blank';
 }
 
-if($_POST['mail'] === ''){
+if(isset($_POST['mail']) === ''){
   $error['mail'] = 'blank';
 }
 
@@ -37,20 +36,23 @@ if(empty($error)){
   <table>
     <tr>
       <td>ニックネーム
-      <?php if($error['menber_name'] === 'blank'): ?>
+      <?php if(isset($error['menber_name']) === 'blank'): ?>
         <p class="error">＊ニックネームを入力してください</p>
       <?php endif; ?>
       </td>
-      <td><input type="text" name="menber_name" value="<?php echo (htmlspecialchars($_POST['menber_name'])); ?>">
-    </td>
+
+      <td><input type="text" name="menber_name" value="<?php print (htmlspecialchars(isset($_POST['menber_name']),ENT_QUOTES)); ?>">
+      </td>
     </tr>
+
     <tr>
       <td>メールアドレス
-      <?php if($error['mail'] === 'blank'): ?>
+      <?php if(isset($error['mail']) === 'blank'): ?>
         <p class="error">＊メールアドレスを入力してください</p>
       <?php endif; ?>
       </td>
-      <td><input type="email" name="mail" value="<?php echo (htmlspecialchars($_POST['mail'])); ?>"></td>
+
+      <td><input type="email" name="mail" value="<?php echo (htmlspecialchars(isset($_POST['mail']))); ?>"></td>
     </tr>
   </table>
   

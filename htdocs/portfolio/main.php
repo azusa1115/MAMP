@@ -26,6 +26,8 @@
 
   <button type="button" onclick="location.href='menber.php'" id="login">新規登録</button>
 
+  <button type="button" onclick="location.href='login.php'" id="login">ログイン</button>
+
 
 
 
